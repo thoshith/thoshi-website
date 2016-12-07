@@ -1,17 +1,15 @@
 # Site settings
 title: PHOTORAMA
-email: ""
+email: "thoshith@yahoo.com"
 description: "Photo Journal"
 url: "http://thoshith.github.io"
 baseurl: ""
 facebook_username: "thoshith"
 twitter_username: "thoshith"
-instagram_username: ""
-github_username:  ""
-deviantart_username: ""
-flickr_username: ""
-share: true
+instagram_username: "thoshith"
+github_username:  "thoshith"
 linkedin_username: "thoshith-ravi"
+share: true
 
 # Owner/author information
 owner:
@@ -33,7 +31,7 @@ comments :
 
 # Internal nav
 nav:
-  - GALLERY: "http://thoshith.github.io/thoshith.github.io/gallery/"  
+#  - GALLERY: "http://thoshith.github.io/thoshith.github.io/gallery/"
 #  - JOURNAL: "http://sunbliss.github.io/photorama/journal/"
 #  - ABOUT: "http://sunbliss.github.io/photorama/about/"
 

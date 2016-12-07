@@ -1,14 +1,15 @@
 <!-- Footer -->
 <footer>
-<div class="container">
+    <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
                 <ul class="list-inline text-center">
-                    
+
                     {% if site.facebook_username %}
                     <li>
-                        <a href="https://facebook.com/{{ site.facebook_username }}" data-toggle="tooltip" title="Facebook">
+                        <a href="https://facebook.com/{{ site.facebook_username }}" data-toggle="tooltip"
+                           title="Facebook"target=" _blank" >
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
@@ -18,7 +19,8 @@
                     {% endif %}
                     {% if site.twitter_username %}
                     <li>
-                        <a href="https://twitter.com/{{ site.instagram_username }}" data-toggle="tooltip" title="Twiiter">
+                        <a href="https://twitter.com/{{ site.instagram_username }}" data-toggle="tooltip"
+                           title="Twiiter"target=" _blank" >
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
@@ -28,7 +30,8 @@
                     {% endif %}
                     {% if site.instagram_username %}
                     <li>
-                        <a href="https://instagram.com/{{ site.instagram_username }}" data-toggle="tooltip" title="Instagram">
+                        <a href="https://instagram.com/{{ site.instagram_username }}" data-toggle="tooltip"
+                           title="Instagram"target=" _blank" >
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
@@ -38,7 +41,8 @@
                     {% endif %}
                     {% if site.flickr_username %}
                     <li>
-                        <a href="https://flickr.com/photos/{{ site.flickr_username }}" data-toggle="tooltip" title="Flickr">
+                        <a href="https://flickr.com/photos/{{ site.flickr_username }}" data-toggle="tooltip"
+                           title="Flickr"target=" _blank" >
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-flickr fa-stack-1x fa-inverse"></i>
@@ -49,7 +53,7 @@
                     {% if site.deviantart_username %}
                     <li>
                         <a href="http://{{ site.deviantart_username }}.deviantart.com">
-                            <span class="fa-stack fa-lg" data-toggle="tooltip" title="Deviantart">
+                            <span class="fa-stack fa-lg" data-toggle="tooltip" title="Deviantart"target=" _blank" >
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-deviantart fa-stack-1x fa-inverse"></i>
                             </span>
@@ -58,7 +62,7 @@
                     {% endif %}
                     {% if site.github_username %}
                     <li>
-                        <a href="https://github.com/{{ site.github_username }}" data-toggle="tooltip" title="Github">
+                        <a href="https://github.com/{{ site.github_username }}" data-toggle="tooltip" title="Github"target=" _blank" >
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-github fa-stack-1x fa-inverse"></i>
@@ -66,17 +70,28 @@
                         </a>
                     </li>
                     {% endif %}
-            <li>
-    <a href="mailto:{{ site.email }}" data-toggle="tooltip" target="_blank" title="Email">
+                    {% if site.linkedin_username %}
+                    <li>
+                        <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" data-toggle="tooltip" title="LinkedIn" target=" _blank" >
+                        <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                        </span>
+                        </a>
+                    </li>
+                    {% endif %}
+
+                    <li>
+                        <a href="mailto:{{ site.email }}" data-toggle="tooltip" target="_blank" title="Email">
                        <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
-</span>
-          </a> </li>
+                       </span>
+                        </a></li>
 
-         <li>
+                    <li>
                         <a href="{{ "/feed.xml" | prepend: site.baseurl }}" data-toggle="tooltip" title="Feed">
-                            <span class="fa-stack fa-lg">
+                        <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
                             </span>
@@ -84,7 +99,9 @@
                     </li>
                 </ul>
                 <p class="copyright text-muted">Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}</p>
-<center><h6><p>Powered by <a href="https://github.com/jekyll/">Jekyll</a>.</p></h6></center>
+                <center>
+                    <h6><p>Powered by <a href="https://github.com/jekyll/">Jekyll</a>.</p></h6>
+                </center>
             </div>
         </div>
     </div>
