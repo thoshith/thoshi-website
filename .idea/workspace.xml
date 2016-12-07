@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0301cfe3-d398-4c87-bb32-0a5816c90712" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gallery/gallery01/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gallery/gallery02/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gallery/gallery03/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gallery/gallery04/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gallery/gallery05/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gallery/gallery06/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gallery/gallery07/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gallery/gallery08/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gallery/gallery09/index.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logo.png" afterPath="$PROJECT_DIR$/logo.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gallery/p_archive_1/index.html" afterPath="$PROJECT_DIR$/gallery/p_archive_1/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gallery/p_archive_2/index.html" afterPath="$PROJECT_DIR$/gallery/p_archive_2/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gallery/p_street_1/index.html" afterPath="$PROJECT_DIR$/gallery/p_street_1/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gallery/p_travel_1/index.html" afterPath="$PROJECT_DIR$/gallery/p_travel_1/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gallery/p_travel_2/index.html" afterPath="$PROJECT_DIR$/gallery/p_travel_2/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gallery/p_travel_3/index.html" afterPath="$PROJECT_DIR$/gallery/p_travel_3/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gallery/p_travel_4/index.html" afterPath="$PROJECT_DIR$/gallery/p_travel_4/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,11 +24,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gallery/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="352">
-              <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+              <caret line="16" column="38" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="14" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -144,7 +138,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/gallery/index.html" />
         <option value="$PROJECT_DIR$/gallery/p_archive_1/index.html" />
         <option value="$PROJECT_DIR$/gallery/p_archive_2/index.html" />
         <option value="$PROJECT_DIR$/gallery/p_street_1/index.html" />
@@ -152,6 +145,8 @@
         <option value="$PROJECT_DIR$/gallery/p_travel_2/index.html" />
         <option value="$PROJECT_DIR$/gallery/p_travel_3/index.html" />
         <option value="$PROJECT_DIR$/gallery/p_travel_4/index.html" />
+        <option value="$PROJECT_DIR$/gallery/index.html" />
+        <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
   </component>
@@ -343,6 +338,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thoshith.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thoshith.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -419,7 +428,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1481083376648</updated>
-      <workItem from="1481083379353" duration="1556000" />
+      <workItem from="1481083379353" duration="1706000" />
     </task>
     <task id="LOCAL-00001" summary="gallery text spacing">
       <created>1481084361500</created>
@@ -432,7 +441,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1556000" />
+    <option name="totallyTimeSpent" value="1706000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2409" y="-9" width="2418" height="1318" extended-state="6" />
@@ -532,7 +541,15 @@
     <entry file="file://$PROJECT_DIR$/gallery/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
-          <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+          <caret line="16" column="38" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="14" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
           <folding />
         </state>
       </provider>
