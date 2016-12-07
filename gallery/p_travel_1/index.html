@@ -1,20 +1,47 @@
 ---
 layout: page
 title: "album"
-description: "ladakh"
-header-img:
+description: "masonry"
 active: gallery
+header-img: "img/gallery-bg.jpg"
 album-title: "my 1st album"
 images:
 - image_path: /gallery/p_travel_1/p_travel_1_1.jpg
 caption: IMAGE TITLE
-copyright: © photorama
+copyright: © thoshith
 - image_path: /gallery/p_travel_1/p_travel_1_2.jpg
 caption: IMAGE TITLE
-copyright: © photorama
+copyright: © thoshith
 - image_path: /gallery/p_travel_1/p_travel_1_3.jpg
 caption: IMAGE TITLE
-copyright: © photorama
+copyright: © thoshith
+- image_path: /gallery/p_travel_1/p_travel_1_4.jpg
+caption: IMAGE TITLE
+copyright: © thoshith
+- image_path: /gallery/p_travel_1/p_travel_1_5.jpg
+caption: IMAGE TITLE
+copyright: © thoshith
+- image_path: /gallery/p_travel_1/p_travel_1_6.jpg
+caption: IMAGE TITLE
+copyright: © thoshith
+- image_path: /gallery/p_travel_1/p_travel_1_7.jpg
+caption: IMAGE TITLE
+copyright: © thoshith
+- image_path: /gallery/p_travel_1/p_travel_1_8.jpg
+caption: IMAGE TITLE
+copyright: © thoshith
+- image_path: /gallery/p_travel_1/p_travel_1_9.jpg
+caption: IMAGE TITLE
+copyright: © thoshith
+- image_path: /gallery/p_travel_1/p_travel_1_10.jpg
+caption: IMAGE TITLE
+copyright: © thoshith
+- image_path: /gallery/p_travel_1/p_travel_1_11.jpg
+caption: IMAGE TITLE
+copyright: © thoshith
+- image_path: /gallery/p_travel_1/p_travel_1_12.jpg
+caption: IMAGE TITLE
+copyright: © thoshith
 ---
 
 <html class="no-js" lang="en">
@@ -22,69 +49,69 @@ copyright: © photorama
 	<meta content="charset=utf-8">
 </head>
 
-<body>
+    <body>
+ 
+	<section id="content" role="main">
+		<div class="wrapper">
+	<br><br>
+			<h2>{{page.album-title}}</h2>
 
-<section id="content" role="main">
-	<div class="wrapper">
-		<br><br>
-		<h2>{{page.album-title}}</h2>
 
+			<!-- Gallery __-->
+			<div class="gallery masonry-gallery">
+		
+{% for image in page.images %}  		
 
-		<!-- Gallery __-->
-		<div class="gallery masonry-gallery">
+				<figure class="gallery-item">
+					<header class='gallery-icon'>
 
-			{% for image in page.images %}
+<a href="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}" class="popup"  title="{{ image.caption }}" data-caption="{{ image.copyright }}">
+<img src="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}"></a>
+						
+					</header>	
+					<figcaption class='gallery-caption'>
+						<div class="entry-summary" id="{{ image.caption }}">
+							<h3>{{image.caption}}</h3>
+							<p>{{image.copyright}}</p>
+						</div>
+					</figcaption>
+				</figure>
+				
+{% endfor %}
 
-			<figure class="gallery-item">
-				<header class='gallery-icon'>
+			</div>
 
-					<a href="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}" class="popup"  title="{{ image.caption }}" data-caption="{{ image.copyright }}">
-						<img src="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}"></a>
+		</div><!-- END .wrapper -->
+	</section>
 
-				</header>
-				<figcaption class='gallery-caption'>
-					<div class="entry-summary" id="{{ image.caption }}">
-						<h3>{{image.caption}}</h3>
-						<p>{{image.copyright}}</p>
-					</div>
-				</figcaption>
-			</figure>
-
-			{% endfor %}
-
-		</div>
-
-	</div><!-- END .wrapper -->
-</section>
-
-<!-- jQuery -->
+<!-- jQuery -->    
 
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <!-- include image popups -->
 <script src="{{ site.baseurl }}/js/jquery.magnific-popup.js"></script>
 
 <script type="text/javascript">
-    $(document).ready(function($) {
+      $(document).ready(function($) {
         $('a.popup').magnificPopup({
-            type: 'image',
-            gallery:{
-                enabled:true,
-                navigateByImgClick: true,
-                preload: [0,1] // Will preload 0 - before current, and 1 after the current image
-            },
-            image: {
-                titleSrc: function(item) {
-                    return item.el.attr('title') + '&nbsp;' + item.el.attr('data-caption');
-                }
+         type: 'image',
+	  gallery:{
+         enabled:true,
+         navigateByImgClick: true,
+         preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+       },
+image: {
+      titleSrc: function(item) {
+              return item.el.attr('title') + '&nbsp;' + item.el.attr('data-caption');
             }
-            // other options
-        });
-    });
-</script>
+        }
+          // other options
+      });
+});
+    </script>
 
 <script src="{{ site.baseurl }}/js/retina.min.js"></script>
 <!-- include Masonry -->
-<script src="{{ site.baseurl }}/js/isotope.pkgd.min.js"></script>
+<script src="{{ site.baseurl }}/js/isotope.pkgd.min.js"></script> 
 <!-- include mousewheel plugins -->
 <script src="{{ site.baseurl }}/js/jquery.mousewheel.min.js"></script>
 <!-- include carousel plugins -->
@@ -94,7 +121,7 @@ copyright: © photorama
 <!-- include custom script -->
 <script src="{{ site.baseurl }}/js/scripts.js"></script>
 <!-- Modernizr -->
-<script src="{{ site.baseurl }}/js/modernizr.js"></script>
+ <script src="{{ site.baseurl }}/js/modernizr.js"></script>
 
-
+    
 </body></html>
